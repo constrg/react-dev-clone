@@ -448,6 +448,7 @@ const toggleNavMenu = () => {
 
     .nav .nav_container .nav_right .nav_list .nav_list_col_1 .nav_list_col_1_item {
         padding-inline: 10px;
+        overflow: auto;
     }
 }
 </style>

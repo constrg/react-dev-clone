@@ -6,21 +6,24 @@ import AlgoliaLogo from '../assets/logo/algolia_logo.png'
 const { toggleSearchModal, showSearchModal } = defineProps(['toggleSearchModal', 'showSearchModal']);
 
 const closeSearchModalContainer = () => {
-    toggleSearchModal();
+    toggleSearchModal(false);
 }
 
-const escSearchModal = (e) => {
-    if (e.key === 'Escape') {
-        toggleSearchModal();
+const handleKeyDownSearch = (e) => {
+    if (e.key === 'k' && e.ctrlKey) {
+        toggleSearchModal(true);
+    }
+    else if(e.key === 'Escape') {
+        toggleSearchModal(false);
     }
 };
 
 onMounted(() => {
-    document.addEventListener('keydown', escSearchModal)
+    document.addEventListener('keydown', handleKeyDownSearch)
 });
 
 onUnmounted(() => {
-    document.removeEventListener('keydown', escSearchModal)
+    document.removeEventListener('keydown', handleKeyDownSearch)
 });
 
 </script>

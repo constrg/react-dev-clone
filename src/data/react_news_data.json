@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "news_title": "React Conf 2024 Recap",
+        "news_date": "May 22, 2024"
+    },
+    {
+        "id": 2,
+        "news_title": "React 19 RC",
+        "news_date": "April 25, 2024"
+    },
+    {
+        "id": 3,
+        "news_title": "React 19 RC Upgrade Guide",
+        "news_date": "April 25, 2024"
+    },
+    {
+        "id": 4,
+        "news_title": "React Labs: February 2024",
+        "news_date": "February 15, 2024"
+    }
+]

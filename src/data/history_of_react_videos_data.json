@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": "/images/meta_gradient_dark.png",
+        "video_title": "React: The Documentary",
+        "video_description": "The origin story of React"
+    },
+    {
+        "id": 2,
+        "img": "/images/meta_gradient_dark.png",
+        "video_title": "Rethinking Best Practices",
+        "video_description": "Pete Hunt (2013)"
+    },
+    {
+        "id": 3,
+        "img": "/images/meta_gradient_dark.png",
+        "video_title": "Introducing React Native",
+        "video_description": "Tom Occhino (2015)"
+    },
+    {
+        "id": 4,
+        "img": "/images/meta_gradient_dark.png",
+        "video_title": "Introducing React Hooks",
+        "video_description": "Sophie Alpert and Dan Abramov (2018)"
+    },
+    {
+        "id": 5,
+        "img": "/images/meta_gradient_dark.png",
+        "video_title": "Introducing Server Components",
+        "video_description": "Dan Abramov and Lauren Tan (2020)"
+    }
+]

@@ -688,7 +688,7 @@ const reactNewsData = ref(ReactNewsData);
 
     color: rgb(var(--clr-primary));
     max-height: 400px;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 .section .section_content .section_code_output .card .card_content .url {
@@ -699,6 +699,8 @@ const reactNewsData = ref(ReactNewsData);
     align-items: center;
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid rgb(var(--clr-primary), 0.1);
@@ -1051,37 +1053,6 @@ const reactNewsData = ref(ReactNewsData);
 .section .section_content .images_marquee .images_marquee_container .images_marquee_item 
 {
     transition: all 0.3s;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.section .section_content .images_marquee .images_marquee_container .images_marquee_item::before
-{
-    content: "";
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    background: linear-gradient(90deg, transparent, rgb(var(--clr-secondary), 0.3), transparent);
-    top: 0;
-    left: -100%;
-    opacity: 0;
-}
-
-.section .section_content .images_marquee .images_marquee_container .images_marquee_item:hover::before
-{
-    animation: shine 1s forwards;
-}
-
-@keyframes shine {
-    0% {
-        left: -100%;
-        opacity: 1;
-    }
-    100% {
-        left: 100%;
-        opacity: 0;
-    }
 }
 
 .section .section_content .images_marquee .images_marquee_container .images_marquee_item .images_marquee_item_img
@@ -1089,6 +1060,7 @@ const reactNewsData = ref(ReactNewsData);
     width: 300px;
     height: 230px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .section .section_content .images_marquee .images_marquee_container .images_marquee_item:nth-child(odd)

@@ -123,6 +123,7 @@ import GitHubIcon from '../assets/icon/github_icon.png';
 .footer .footer_content .footer_col .footer_col_list .footer_col_list_item .sm_list .sm_icon
 {
     width: 20px;
+    filter: invert(var(--invert-light));
 }
 
 @media (max-width: 1023px)

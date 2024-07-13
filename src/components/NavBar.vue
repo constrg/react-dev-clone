@@ -15,7 +15,7 @@ const version = "v18.3.1";
 const isNavBarScrolled = ref(false);
 const showSearchModal = ref(false);
 const isNavListActive = ref(false)
-const theme = ref('light');
+const theme = ref('dark');
 
 // on scroll
 const handleScroll = () => {

@@ -1161,6 +1161,12 @@ const reactNewsData = ref(ReactNewsData);
         padding-inline: 20px;
     }
 
+    .section .section_content .section_platform .web_platform .web_platform_text,
+    .section .section_content .section_platform .mobile_platform .mobile_platform_text {
+        padding: 20px;
+    }
+
+
     .upgrade_future_ready_section .upgrade_future_ready_content 
     {
         grid-template-columns: 1fr;
